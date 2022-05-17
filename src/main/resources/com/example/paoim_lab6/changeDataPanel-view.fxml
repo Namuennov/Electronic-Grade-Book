@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.paoim_lab6.ChangeDataPanelView">
+   <children>
+      <TextField fx:id="nameField" layoutX="226.0" layoutY="115.0" />
+      <Label layoutX="287.0" layoutY="91.0" text="Name" />
+      <Label layoutX="286.0" layoutY="151.0" text="Surname" />
+      <TextField fx:id="surnameField" layoutX="229.0" layoutY="175.0" />
+      <Label layoutX="290.0" layoutY="212.0" text="State" />
+      <ChoiceBox fx:id="statesList" layoutX="228.0" layoutY="237.0" prefWidth="150.0" />
+      <Button layoutX="278.0" layoutY="293.0" mnemonicParsing="false" onAction="#onApplyButtonClick" text="Apply changes" />
+      <Button layoutX="264.0" layoutY="329.0" mnemonicParsing="false" onAction="#onBackButtonClick" text="Go back to previous menu" />
+      <Label fx:id="errorLabel" layoutX="286.0" layoutY="36.0" />
+   </children>
+</AnchorPane>

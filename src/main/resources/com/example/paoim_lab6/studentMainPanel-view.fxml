@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.paoim_lab6.StudentMainPanelView">
+   <children>
+      <Button layoutX="113.0" layoutY="64.0" mnemonicParsing="false" onAction="#currentSubjectsButtonOnClick" text="Current subjects" />
+      <Button layoutX="264.0" layoutY="64.0" mnemonicParsing="false" onAction="#enrollButtonOnClick" text="Enroll to new subject" />
+      <Button layoutX="430.0" layoutY="64.0" mnemonicParsing="false" onAction="#changeDataButtonOnClick" text="Change your data" />
+   </children>
+</AnchorPane>

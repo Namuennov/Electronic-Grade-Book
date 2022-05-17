@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.paoim_lab6.CurrentSubjectPanelView">
+   <children>
+      <ListView fx:id="subjectsList" layoutX="200.0" layoutY="32.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="274.0" layoutY="246.0" mnemonicParsing="false" onAction="#onSignOutButtonClick" text="Sign me out from this subject" />
+      <Button layoutX="274.0" layoutY="284.0" mnemonicParsing="false" onAction="#onSortByNameButtonClick" text="Sort subjects by name" />
+      <Button layoutX="274.0" layoutY="322.0" mnemonicParsing="false" onAction="#onSortByGradeButtonClick" text="Sort subjects by average grade" />
+      <Button layoutX="274.0" layoutY="361.0" mnemonicParsing="false" onAction="#onBackButtonClick" text="Go back to previous menu" />
+      <Label fx:id="signOutLabel" layoutX="74.0" layoutY="250.0" />
+      <Label fx:id="gradesLabel" layoutX="450.0" layoutY="45.0" />
+   </children>
+</AnchorPane>
