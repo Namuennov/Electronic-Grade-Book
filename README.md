@@ -3,7 +3,7 @@ Electronic grade book application using Java, Hibernate and Java Swing (and Java
 
 There are actually 2 different applications: the first on the "main-teacherSide" branch and the second on the "FXEtude-studentSide" branch.
 
-##=TEACHER SIDE APPLICATION= ("main-teacherSide" branch)
+## =TEACHER SIDE APPLICATION= ("main-teacherSide" branch)
 
 It is the Electronic Grade Book application that represents teacher-side grade book (you can add students, give them points and do other things that teachers do).
 
@@ -15,7 +15,7 @@ Wait few seconds in main menu after running, because Hibernate needs a while to 
  
  
  
-##=STUDENT SIDE APPLICATION= ("FXEtude-studentSide" branch)
+## =STUDENT SIDE APPLICATION= ("FXEtude-studentSide" branch)
 
 It is the Electronic Grade Book application that represents student-side grade book (you can check your grades, enroll on the course and do other things that students do).
 
